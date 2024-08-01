@@ -48,10 +48,10 @@ public class JpaConfig {
     public DataSource dataSource() {
 
         PoolProperties properties = new PoolProperties();
-        properties.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        properties.setUrl("jdbc:mysql://localhost:3306/users?useSSL=false&allowPublicKeyRetrieval=true&characterEncoding=utf8");
-        properties.setUsername("kalki");
-        properties.setPassword("Aura@1002");
+        properties.setDriverClassName(environment.getProperty("jdbc.driver"));
+        properties.setUrl(environment.getProperty("jdbc.url"));
+        properties.setUsername(environment.getProperty("jdbc.username"));
+        properties.setPassword(environment.getProperty("jdbc.password"));
 
         DataSource dataSource = new DataSource();
         dataSource.setPoolProperties(properties);
