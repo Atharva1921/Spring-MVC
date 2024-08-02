@@ -3189,3 +3189,247 @@ java.net.URLClassLoader@5f4da5c3
 2024-08-02 12:37:25 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2024-08-02 12:37:28 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
 2024-08-02 12:37:28 INFO  DispatcherServlet:554 - Completed initialization in 3595 ms
+2024-08-02 15:30:59 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:31:01 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:31:18 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-02 15:31:18 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 15:31:18 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 116 ms. Found 1 JPA repository interface.
+2024-08-02 15:31:19 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 15:31:19 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 15:31:19 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 15:31:20 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 15:31:22 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 15:31:25 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:31:25 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 7603 ms
+2024-08-02 15:31:25 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-02 15:31:25 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 15:31:25 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2024-08-02 15:31:25 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 15:31:25 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 15:31:25 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 15:31:26 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 15:31:29 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:31:29 INFO  DispatcherServlet:554 - Completed initialization in 3697 ms
+2024-08-02 15:31:48 INFO  UserController:29 - Register accessed
+2024-08-02 15:31:49 WARN  PageNotFound:1300 - No mapping for GET /user/style.css
+2024-08-02 15:31:49 WARN  PageNotFound:461 - No endpoint GET /user/style.css.
+2024-08-02 15:51:05 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:51:06 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:51:18 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-02 15:51:18 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 15:51:18 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interface.
+2024-08-02 15:51:19 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 15:51:19 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 15:51:19 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 15:51:20 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 15:51:22 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 15:51:25 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:51:25 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 7246 ms
+2024-08-02 15:51:25 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-02 15:51:25 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 15:51:25 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-08-02 15:51:25 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 15:51:25 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 15:51:25 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 15:51:26 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 15:51:29 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:51:29 INFO  DispatcherServlet:554 - Completed initialization in 4199 ms
+2024-08-02 15:51:39 INFO  UserController:29 - Register accessed
+2024-08-02 15:51:44 INFO  UserController:29 - Register accessed
+2024-08-02 15:52:09 INFO  UserController:29 - Register accessed
+2024-08-02 15:53:39 INFO  UserController:29 - Register accessed
+2024-08-02 15:53:42 INFO  UserController:29 - Register accessed
+2024-08-02 15:53:45 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:53:46 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:54:14 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-02 15:54:15 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 15:54:15 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 268 ms. Found 1 JPA repository interface.
+2024-08-02 15:54:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 15:54:17 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 15:54:18 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 15:54:20 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 15:54:26 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 15:54:29 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:54:31 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 17332 ms
+2024-08-02 15:54:31 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-02 15:54:32 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 15:54:32 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-08-02 15:54:32 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 15:54:32 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 15:54:32 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 15:54:32 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 15:54:35 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 15:54:37 INFO  DispatcherServlet:554 - Completed initialization in 6325 ms
+2024-08-02 15:54:38 INFO  UserController:29 - Register accessed
+2024-08-02 16:00:32 INFO  UserController:29 - Register accessed
+2024-08-02 16:00:35 INFO  UserController:29 - Register accessed
+2024-08-02 16:00:36 INFO  UserController:29 - Register accessed
+2024-08-02 16:00:37 INFO  UserController:29 - Register accessed
+2024-08-02 16:00:37 INFO  UserController:29 - Register accessed
+2024-08-02 16:00:37 INFO  UserController:29 - Register accessed
+2024-08-02 16:00:41 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:00:42 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:01:08 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-02 16:01:09 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:01:09 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 199 ms. Found 1 JPA repository interface.
+2024-08-02 16:01:10 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:01:11 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 16:01:11 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:01:13 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:01:18 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:01:21 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:01:23 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 14947 ms
+2024-08-02 16:01:23 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-02 16:01:23 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:01:23 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-08-02 16:01:23 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:01:23 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:01:24 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:01:24 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:01:27 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:01:28 INFO  DispatcherServlet:554 - Completed initialization in 5561 ms
+2024-08-02 16:02:50 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:02:52 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:03:14 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-02 16:03:15 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:03:16 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 263 ms. Found 1 JPA repository interface.
+2024-08-02 16:03:17 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:03:17 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 16:03:17 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:03:19 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:03:24 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:03:27 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:03:29 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 14879 ms
+2024-08-02 16:03:29 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-02 16:03:29 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:03:29 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-08-02 16:03:30 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:03:30 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:03:30 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:03:30 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:03:33 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:03:34 INFO  DispatcherServlet:554 - Completed initialization in 5463 ms
+2024-08-02 16:04:09 INFO  UserController:29 - Register accessed
+2024-08-02 16:04:10 WARN  PageNotFound:1300 - No mapping for GET /user/resources/css/register.css
+2024-08-02 16:04:10 WARN  PageNotFound:461 - No endpoint GET /user/resources/css/register.css.
+2024-08-02 16:04:24 INFO  UserController:29 - Register accessed
+2024-08-02 16:04:24 WARN  PageNotFound:1300 - No mapping for GET /user/resources/css/register.css
+2024-08-02 16:04:24 WARN  PageNotFound:461 - No endpoint GET /user/resources/css/register.css.
+2024-08-02 16:08:07 INFO  UserController:29 - Register accessed
+2024-08-02 16:10:49 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:10:51 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:11:14 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-02 16:11:15 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:11:16 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 416 ms. Found 1 JPA repository interface.
+2024-08-02 16:11:18 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:11:19 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 16:11:19 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:11:22 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:11:31 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:11:36 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:11:38 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 23781 ms
+2024-08-02 16:11:38 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-02 16:11:38 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:11:38 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2024-08-02 16:11:39 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:11:39 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:11:39 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:11:40 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:11:43 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:11:45 INFO  DispatcherServlet:554 - Completed initialization in 7225 ms
+2024-08-02 16:12:00 INFO  UserController:29 - Register accessed
+2024-08-02 16:12:53 INFO  UserController:29 - Register accessed
+2024-08-02 16:12:54 INFO  UserController:29 - Register accessed
+2024-08-02 16:12:55 INFO  UserController:29 - Register accessed
+2024-08-02 16:28:45 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:28:46 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:29:18 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-02 16:29:19 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:29:20 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 212 ms. Found 1 JPA repository interface.
+2024-08-02 16:29:21 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:29:21 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 16:29:21 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:29:25 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:29:31 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:29:33 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:29:35 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 16615 ms
+2024-08-02 16:29:35 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-02 16:29:35 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:29:35 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2024-08-02 16:29:35 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:29:35 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:29:35 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:29:36 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:29:38 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:29:39 INFO  DispatcherServlet:554 - Completed initialization in 4655 ms
+2024-08-02 16:30:20 INFO  UserController:29 - Register accessed
+2024-08-02 16:32:05 INFO  UserController:29 - Register accessed
+2024-08-02 16:32:47 INFO  UserController:29 - Register accessed
+2024-08-02 16:32:55 INFO  UserController:29 - Register accessed
+2024-08-02 16:33:05 INFO  UserController:29 - Register accessed
+2024-08-02 16:34:04 INFO  UserController:29 - Register accessed
+2024-08-02 16:34:40 INFO  UserController:29 - Register accessed
+2024-08-02 16:34:43 INFO  UserController:29 - Register accessed
+2024-08-02 16:34:57 INFO  UserController:29 - Register accessed
+2024-08-02 16:35:00 INFO  UserController:29 - Register accessed
+2024-08-02 16:35:40 INFO  UserController:29 - Register accessed
+2024-08-02 16:35:45 INFO  UserController:29 - Register accessed
+2024-08-02 16:36:04 INFO  UserController:29 - Register accessed
+2024-08-02 16:36:25 INFO  UserController:29 - Register accessed
+2024-08-02 16:36:37 INFO  UserController:29 - Register accessed
+2024-08-02 16:36:38 INFO  UserController:29 - Register accessed
+2024-08-02 16:36:39 INFO  UserController:29 - Register accessed
+2024-08-02 16:36:42 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:36:43 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:37:04 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-02 16:37:05 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:37:05 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 206 ms. Found 1 JPA repository interface.
+2024-08-02 16:37:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:37:07 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-02 16:37:07 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:37:08 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:37:14 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:37:18 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:37:19 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 15510 ms
+2024-08-02 16:37:19 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-02 16:37:20 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-02 16:37:20 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-08-02 16:37:20 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-02 16:37:20 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-02 16:37:20 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-02 16:37:21 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-02 16:37:24 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-02 16:37:25 INFO  DispatcherServlet:554 - Completed initialization in 5771 ms
+2024-08-02 16:37:26 INFO  UserController:29 - Register accessed
+2024-08-02 16:37:32 INFO  UserController:29 - Register accessed
+2024-08-02 16:37:49 INFO  UserController:29 - Register accessed
+2024-08-02 16:37:53 INFO  UserController:29 - Register accessed
+2024-08-02 16:37:53 INFO  UserController:29 - Register accessed
+2024-08-02 16:37:54 INFO  UserController:29 - Register accessed
+2024-08-02 16:39:20 INFO  UserController:29 - Register accessed
+2024-08-02 16:39:40 INFO  UserController:29 - Register accessed
+2024-08-02 16:39:58 INFO  UserController:29 - Register accessed
+2024-08-02 16:41:49 INFO  UserController:29 - Register accessed
+2024-08-02 16:44:45 INFO  UserController:29 - Register accessed
+2024-08-02 16:44:48 WARN  PageNotFound:1300 - No mapping for GET /user/style.css
+2024-08-02 16:44:48 WARN  PageNotFound:461 - No endpoint GET /user/style.css.
+2024-08-02 16:44:57 WARN  PageNotFound:1300 - No mapping for GET /user/style.css
+2024-08-02 16:44:57 WARN  PageNotFound:461 - No endpoint GET /user/style.css.
+2024-08-02 16:45:00 WARN  PageNotFound:1300 - No mapping for GET /user/style.css
+2024-08-02 16:45:00 WARN  PageNotFound:461 - No endpoint GET /user/style.css.
+2024-08-02 16:45:04 INFO  UserController:29 - Register accessed
+2024-08-02 16:45:06 WARN  PageNotFound:1300 - No mapping for GET /login
+2024-08-02 16:45:06 WARN  PageNotFound:461 - No endpoint GET /login.
+2024-08-02 16:45:16 WARN  PageNotFound:1300 - No mapping for GET /login
+2024-08-02 16:45:16 WARN  PageNotFound:461 - No endpoint GET /login.
+2024-08-02 16:45:18 INFO  UserController:29 - Register accessed
+2024-08-02 16:45:21 INFO  UserController:29 - Register accessed
+2024-08-02 16:45:25 INFO  UserController:29 - Register accessed
+2024-08-02 16:45:28 INFO  UserController:29 - Register accessed
+2024-08-02 16:45:30 WARN  PageNotFound:1300 - No mapping for GET /user/style.css
+2024-08-02 16:45:30 WARN  PageNotFound:461 - No endpoint GET /user/style.css.
+2024-08-02 16:46:35 INFO  UserController:29 - Register accessed
+2024-08-02 16:49:22 INFO  UserController:29 - Register accessed
+2024-08-02 16:50:41 INFO  UserController:29 - Register accessed
+2024-08-02 16:50:43 INFO  UserController:29 - Register accessed
+2024-08-02 16:50:46 INFO  UserController:29 - Register accessed
