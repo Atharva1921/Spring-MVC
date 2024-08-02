@@ -1,7 +1,7 @@
 <html>
 <body>
 <h2>Registration Form</h2>
-<form action="/processform" method="post" >
+<form action="/user/processform" method="post" >
     <label for="name">name: </label>
     <input type="text" name="name"  required>
     <br>
