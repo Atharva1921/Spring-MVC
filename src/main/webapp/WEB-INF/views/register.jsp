@@ -1,6 +1,7 @@
 
-<!DOCTYPE html>
-<!-- Coding By CodingNepal - codingnepalweb.com -->
+
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
@@ -11,32 +12,41 @@
 <body>
   <div class="wrapper">
     <h2>Registration</h2>
-    <form action="/processform" method="post">
+    <form:form modelAttribute="user" action="/user/processform" method="post">
+
       <div class="input-box">
-        <input name="name" type="text" placeholder="Enter your name" required>
-      </div>
-      <div class="input-box">
-        <input name="email" type="text" placeholder="Enter your email" required>
+        <form:input path="name" name="name" type="text" placeholder="Enter your name"/>
+        <div class="error"><form:errors path="name"/></div>
       </div>
 
       <div class="input-box">
-        <input name="phone" type="text" placeholder="Enter your phone number" required>
+        <form:input path="email" name="email" type="text" placeholder="Enter your email"/>
+        <div class="error"><form:errors path="email"/></div>
       </div>
 
       <div class="input-box">
-        <input name="password" type="password" placeholder="Create password" required>
+        <form:input path="phone" name="phone" type="text" placeholder="Enter your phone number"/>
+        <div class="error"><form:errors path="phone"/></div>
       </div>
+
       <div class="input-box">
-        <input name="confirm-password" type="password" placeholder="Confirm password" required>
+        <form:input path="password" name="password" type="password" placeholder="Create password"/>
+        <div class="error"><form:errors path="password"/></div>
+      </div>
+
+      <div class="input-box">
+        <input name="confirm-password" type="password" placeholder="Confirm password"/>
+        <form:errors cssClass="error"/>
       </div>
 
       <div class="input-box button">
-        <input name="submit" type="Submit" value="Register Now">
+        <input name="submit" type="Submit" value="Register Now"/>
       </div>
+
       <div class="text">
         <h3>Already have an account? <a href="login">Login now</a></h3>
       </div>
-    </form>
+    </form:form>
   </div>
 </body>
 </html>

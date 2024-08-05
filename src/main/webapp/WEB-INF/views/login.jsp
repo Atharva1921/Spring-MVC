@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Registration or Sign Up form in HTML CSS | CodingLab </title>
-    <link href="/resources/css/register.css" rel="stylesheet" >
+    <link href="/resources/css/login.css" rel="stylesheet" >
    </head>
 <body>
   <div class="wrapper">

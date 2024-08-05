@@ -2,11 +2,13 @@ package com.springmvc.controller;
 
 import com.springmvc.entity.User;
 import com.springmvc.service.UserService;
+import jakarta.validation.Valid;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -25,20 +27,27 @@ public class UserController {
     }
 
     @GetMapping("/register")
-    public String register() {
+    public String register( Model model) {
         logger.info("Register accessed");
+        model.addAttribute("user", new User());
         return "register";
     }
 
     @PostMapping("/processform")
-    public String processForm(@ModelAttribute User user, Model model) {
+    public String processForm(@Valid @ModelAttribute("user") User user, BindingResult bindingResult) {
 
-        model.addAttribute("user",user);
-        this.userService.saveUser(user);
+        if (bindingResult.hasErrors()) {
 
-        logger.info(user);
+            logger.warn("validation error");
+            return "register";
 
-        return "redirect:/login";
+
+        } else {
+            this.userService.saveUser(user);
+            logger.info(user);
+            return "redirect:/user/login";
+        }
+
     }
 
     @GetMapping("/login")

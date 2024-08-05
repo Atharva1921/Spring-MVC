@@ -3433,3 +3433,1656 @@ java.net.URLClassLoader@5f4da5c3
 2024-08-02 16:50:41 INFO  UserController:29 - Register accessed
 2024-08-02 16:50:43 INFO  UserController:29 - Register accessed
 2024-08-02 16:50:46 INFO  UserController:29 - Register accessed
+2024-08-02 16:54:26 INFO  UserController:29 - Register accessed
+2024-08-02 16:58:00 INFO  UserController:29 - Register accessed
+2024-08-02 17:37:47 INFO  UserController:29 - Register accessed
+2024-08-02 17:37:55 INFO  UserController:29 - Register accessed
+2024-08-03 16:42:30 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 16:42:31 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 16:43:02 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-03 16:43:04 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03 16:43:04 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 315 ms. Found 1 JPA repository interface.
+2024-08-03 16:43:05 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03 16:43:06 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03 16:43:06 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-03 16:43:08 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03 16:43:14 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03 16:43:17 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 16:43:19 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 16131 ms
+2024-08-03 16:43:19 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-03 16:43:19 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03 16:43:19 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-08-03 16:43:19 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03 16:43:19 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-03 16:43:19 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03 16:43:20 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03 16:43:23 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 16:43:24 WARN  AnnotationConfigWebApplicationContext:632 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'validator' defined in com.springmvc.config.MvcConfig: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-08-03 16:43:24 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 16:43:25 ERROR DispatcherServlet:541 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'validator' defined in com.springmvc.config.MvcConfig: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:962) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:706) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:583) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:537) [spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:169) [spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.GenericServlet.init(GenericServlet.java:143) [servlet-api.jar:6.0]
+	at jakarta.servlet.http.HttpServlet.init(HttpServlet.java:121) [servlet-api.jar:?]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:837) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:701) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4172) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4458) [catalina.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:654) [catalina.jar:10.1.26]
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:635) [catalina.jar:10.1.26]
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1889) [catalina.jar:10.1.26]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) [?:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) [?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-util.jar:10.1.26]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123) [?:?]
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:530) [catalina.jar:10.1.26]
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:421) [catalina.jar:10.1.26]
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1629) [catalina.jar:10.1.26]
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:303) [catalina.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109) [catalina.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:385) [catalina.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:332) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:772) [catalina.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193) [catalina.jar:10.1.26]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) [?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) [tomcat-util.jar:10.1.26]
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) [?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:203) [catalina.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415) [catalina.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:874) [catalina.jar:10.1.26]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) [catalina.jar:10.1.26]
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:757) [catalina.jar:10.1.26]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345) [bootstrap.jar:10.1.26]
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473) [bootstrap.jar:10.1.26]
+Caused by: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+	at jakarta.validation.Validation$GenericBootstrapImpl.configure(Validation.java:291) ~[jakarta.validation-api-3.1.0.jar:?]
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:270) ~[spring-context-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1835) ~[spring-beans-6.1.10.jar:6.1.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1784) ~[spring-beans-6.1.10.jar:6.1.10]
+	... 56 more
+2024-08-03 18:43:05 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 18:43:29 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-03 18:43:30 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03 18:43:30 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 199 ms. Found 1 JPA repository interface.
+2024-08-03 18:43:31 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03 18:43:32 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03 18:43:32 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-03 18:43:34 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03 18:43:39 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03 18:43:42 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 18:43:43 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 14556 ms
+2024-08-03 18:43:43 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-03 18:43:44 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03 18:43:44 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-08-03 18:43:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03 18:43:44 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-03 18:43:44 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03 18:43:45 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03 18:43:47 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 18:43:49 INFO  DispatcherServlet:554 - Completed initialization in 5559 ms
+2024-08-03 18:49:27 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 18:49:28 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 18:49:50 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-03 18:49:51 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03 18:49:51 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 207 ms. Found 1 JPA repository interface.
+2024-08-03 18:49:53 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03 18:49:54 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03 18:49:54 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-03 18:49:56 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03 18:50:01 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03 18:50:04 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 18:50:05 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 14943 ms
+2024-08-03 18:50:05 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-03 18:50:05 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03 18:50:05 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-08-03 18:50:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03 18:50:06 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-03 18:50:06 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03 18:50:06 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03 18:50:09 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 18:50:10 INFO  DispatcherServlet:554 - Completed initialization in 5136 ms
+2024-08-03 18:50:29 INFO  UserController:31 - Register accessed
+2024-08-03 18:52:16 WARN  PageNotFound:1300 - No mapping for POST /processform
+2024-08-03 18:52:16 WARN  PageNotFound:461 - No endpoint POST /processform.
+2024-08-03 18:53:17 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 18:53:18 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 18:53:36 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-03 18:53:37 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03 18:53:37 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 194 ms. Found 1 JPA repository interface.
+2024-08-03 18:53:39 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03 18:53:39 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-03 18:53:39 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-03 18:53:41 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03 18:53:46 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03 18:53:49 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 18:53:51 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 14440 ms
+2024-08-03 18:53:51 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-03 18:53:51 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-03 18:53:51 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-08-03 18:53:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-03 18:53:51 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-03 18:53:51 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-03 18:53:52 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-03 18:53:56 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-03 18:53:57 INFO  DispatcherServlet:554 - Completed initialization in 6507 ms
+2024-08-03 18:53:58 WARN  PageNotFound:1300 - No mapping for POST /processform
+2024-08-03 18:53:58 WARN  PageNotFound:461 - No endpoint POST /processform.
+2024-08-03 18:54:04 INFO  UserController:31 - Register accessed
+2024-08-03 18:54:07 WARN  PageNotFound:1300 - No mapping for POST /processform
+2024-08-03 18:54:07 WARN  PageNotFound:461 - No endpoint POST /processform.
+2024-08-03 18:54:26 INFO  UserController:31 - Register accessed
+2024-08-03 18:54:27 INFO  UserController:31 - Register accessed
+2024-08-03 18:54:37 WARN  UserController:49 - validation error
+2024-08-05 10:29:59 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 10:30:00 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 10:30:22 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 10:30:24 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 10:30:24 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 217 ms. Found 1 JPA repository interface.
+2024-08-05 10:30:25 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 10:30:26 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 10:30:26 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 10:30:27 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 10:30:33 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 10:30:36 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 10:30:37 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 14957 ms
+2024-08-05 10:30:37 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 10:30:38 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 10:30:38 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2024-08-05 10:30:38 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 10:30:38 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 10:30:38 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 10:30:38 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 10:30:41 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 10:30:42 INFO  DispatcherServlet:554 - Completed initialization in 4921 ms
+2024-08-05 10:30:51 WARN  UserController:49 - validation error
+2024-08-05 10:30:57 INFO  UserController:31 - Register accessed
+2024-08-05 10:31:08 INFO  UserController:31 - Register accessed
+2024-08-05 10:31:19 INFO  UserController:31 - Register accessed
+2024-08-05 10:42:48 INFO  UserController:31 - Register accessed
+2024-08-05 10:42:51 INFO  UserController:31 - Register accessed
+2024-08-05 10:56:16 INFO  UserController:31 - Register accessed
+2024-08-05 10:56:35 INFO  UserController:31 - Register accessed
+2024-08-05 10:56:38 INFO  UserController:31 - Register accessed
+2024-08-05 10:56:39 INFO  UserController:31 - Register accessed
+2024-08-05 10:56:39 INFO  UserController:31 - Register accessed
+2024-08-05 10:56:40 INFO  UserController:31 - Register accessed
+2024-08-05 10:56:41 INFO  UserController:31 - Register accessed
+2024-08-05 10:59:21 INFO  UserController:31 - Register accessed
+2024-08-05 10:59:41 INFO  UserController:31 - Register accessed
+2024-08-05 11:02:28 INFO  UserController:31 - Register accessed
+2024-08-05 11:02:29 INFO  UserController:31 - Register accessed
+2024-08-05 11:02:33 WARN  UserController:49 - validation error
+2024-08-05 11:02:56 INFO  UserController:31 - Register accessed
+2024-08-05 11:02:58 INFO  UserController:31 - Register accessed
+2024-08-05 11:02:58 INFO  UserController:31 - Register accessed
+2024-08-05 11:03:02 WARN  UserController:49 - validation error
+2024-08-05 11:06:41 INFO  UserController:31 - Register accessed
+2024-08-05 11:07:06 INFO  UserController:31 - Register accessed
+2024-08-05 11:07:24 INFO  UserController:31 - Register accessed
+2024-08-05 11:07:43 INFO  UserController:31 - Register accessed
+2024-08-05 11:07:51 WARN  UserController:49 - validation error
+2024-08-05 11:08:03 WARN  UserController:49 - validation error
+2024-08-05 11:08:19 WARN  UserController:49 - validation error
+2024-08-05 11:08:23 WARN  UserController:49 - validation error
+2024-08-05 11:09:07 WARN  UserController:49 - validation error
+2024-08-05 11:09:13 INFO  UserController:31 - Register accessed
+2024-08-05 11:09:14 INFO  UserController:31 - Register accessed
+2024-08-05 11:09:15 INFO  UserController:31 - Register accessed
+2024-08-05 11:09:16 INFO  UserController:31 - Register accessed
+2024-08-05 11:09:16 INFO  UserController:31 - Register accessed
+2024-08-05 11:09:16 INFO  UserController:31 - Register accessed
+2024-08-05 11:09:17 WARN  UserController:49 - validation error
+2024-08-05 11:10:19 INFO  UserController:31 - Register accessed
+2024-08-05 11:10:25 INFO  UserController:31 - Register accessed
+2024-08-05 11:10:36 INFO  UserController:31 - Register accessed
+2024-08-05 11:12:02 INFO  UserController:31 - Register accessed
+2024-08-05 11:12:04 INFO  UserController:31 - Register accessed
+2024-08-05 11:12:05 INFO  UserController:31 - Register accessed
+2024-08-05 11:12:08 WARN  UserController:49 - validation error
+2024-08-05 11:13:48 INFO  UserController:31 - Register accessed
+2024-08-05 11:14:33 INFO  UserController:31 - Register accessed
+2024-08-05 11:14:33 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:399) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:170) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:15:10 INFO  UserController:31 - Register accessed
+2024-08-05 11:15:11 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:393) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:170) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:15:16 INFO  UserController:31 - Register accessed
+2024-08-05 11:15:16 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:393) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:170) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:17:04 INFO  UserController:31 - Register accessed
+2024-08-05 11:17:04 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:399) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:170) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:17:06 INFO  UserController:31 - Register accessed
+2024-08-05 11:17:06 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:399) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:170) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:18:07 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:18:08 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:18:35 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 11:18:36 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 11:18:37 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 201 ms. Found 1 JPA repository interface.
+2024-08-05 11:18:38 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 11:18:38 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 11:18:38 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 11:18:40 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 11:18:46 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 11:18:49 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:18:50 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 14489 ms
+2024-08-05 11:18:50 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 11:18:50 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 11:18:50 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interface.
+2024-08-05 11:18:50 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 11:18:50 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 11:18:50 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 11:18:51 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 11:18:54 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:18:55 INFO  DispatcherServlet:554 - Completed initialization in 5561 ms
+2024-08-05 11:19:03 INFO  UserController:31 - Register accessed
+2024-08-05 11:19:08 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:399) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:170) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:27:51 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:27:52 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:28:31 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 11:28:33 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 11:28:33 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 404 ms. Found 1 JPA repository interface.
+2024-08-05 11:28:35 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 11:28:36 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 11:28:36 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 11:28:39 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 11:28:48 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 11:28:51 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:28:53 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 22249 ms
+2024-08-05 11:28:54 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 11:28:54 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 11:28:54 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2024-08-05 11:28:54 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 11:28:54 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 11:28:55 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 11:28:55 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 11:28:59 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:29:01 INFO  DispatcherServlet:554 - Completed initialization in 7175 ms
+2024-08-05 11:29:16 INFO  UserController:31 - Register accessed
+2024-08-05 11:29:22 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:399) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:170) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:32:27 INFO  UserController:31 - Register accessed
+2024-08-05 11:32:27 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'command' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:399) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:170) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:37:12 INFO  UserController:31 - Register accessed
+2024-08-05 11:37:13 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:401) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:172) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:38:03 INFO  UserController:31 - Register accessed
+2024-08-05 11:38:04 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'User' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'User' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:401) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:172) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:38:10 INFO  UserController:31 - Register accessed
+2024-08-05 11:38:10 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'User' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'User' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:401) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:172) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:39:57 INFO  UserController:31 - Register accessed
+2024-08-05 11:39:57 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:401) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:172) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:40:25 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:40:26 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:40:51 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 11:40:52 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 11:40:52 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 212 ms. Found 1 JPA repository interface.
+2024-08-05 11:40:53 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 11:40:54 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 11:40:54 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 11:40:56 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 11:41:01 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 11:41:05 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:41:06 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 15808 ms
+2024-08-05 11:41:07 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 11:41:07 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 11:41:07 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interface.
+2024-08-05 11:41:07 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 11:41:07 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 11:41:07 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 11:41:08 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 11:41:13 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 11:41:14 INFO  DispatcherServlet:554 - Completed initialization in 7705 ms
+2024-08-05 11:52:31 INFO  UserController:31 - Register accessed
+2024-08-05 11:52:36 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:401) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:172) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 11:55:57 INFO  UserController:31 - Register accessed
+2024-08-05 11:55:58 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:412) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:175) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 12:02:12 INFO  UserController:31 - Register accessed
+2024-08-05 12:03:04 INFO  UserController:31 - Register accessed
+2024-08-05 12:03:05 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:421) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:175) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 12:03:50 INFO  UserController:31 - Register accessed
+2024-08-05 12:03:51 ERROR InputTag:85 - Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+java.lang.IllegalStateException: Neither BindingResult nor plain target object for bean name 'user' available as request attribute
+	at org.springframework.web.servlet.support.BindStatus.<init>(BindStatus.java:153) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getBindStatus(AbstractDataBoundFormElementTag.java:178) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getPropertyPath(AbstractDataBoundFormElementTag.java:199) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.getName(AbstractDataBoundFormElementTag.java:164) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.autogenerateId(AbstractDataBoundFormElementTag.java:149) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.resolveId(AbstractDataBoundFormElementTag.java:139) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractDataBoundFormElementTag.writeDefaultAttributes(AbstractDataBoundFormElementTag.java:122) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractHtmlElementTag.writeDefaultAttributes(AbstractHtmlElementTag.java:457) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.InputTag.writeTagContent(InputTag.java:356) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.form.AbstractFormTag.doStartTagInternal(AbstractFormTag.java:87) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.tags.RequestContextAwareTag.doStartTag(RequestContextAwareTag.java:82) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspx_meth_form_005finput_005f0(register_jsp.java:394) ~[?:?]
+	at org.apache.jsp.WEB_002dINF.views.register_jsp._jspService(register_jsp.java:175) ~[?:?]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:67) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:456) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:377) ~[jasper.jar:10.1.26]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:325) ~[jasper.jar:10.1.26]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:632) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:408) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:330) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:267) ~[catalina.jar:10.1.26]
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:314) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1431) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1167) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[servlet-api.jar:?]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.10.jar:6.1.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-websocket.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:663) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[catalina.jar:10.1.26]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[catalina.jar:10.1.26]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-coyote.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-util.jar:10.1.26]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-util.jar:10.1.26]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+2024-08-05 12:04:04 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:04:05 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:04:33 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 12:04:34 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 12:04:34 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 251 ms. Found 1 JPA repository interface.
+2024-08-05 12:04:35 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 12:04:36 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 12:04:36 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 12:04:37 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 12:04:43 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 12:04:47 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:04:48 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 15473 ms
+2024-08-05 12:04:48 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 12:04:48 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 12:04:48 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-08-05 12:04:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 12:04:49 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 12:04:49 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 12:04:49 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 12:04:52 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:04:53 INFO  DispatcherServlet:554 - Completed initialization in 5303 ms
+2024-08-05 12:04:57 INFO  UserController:31 - Register accessed
+2024-08-05 12:05:13 INFO  UserController:31 - Register accessed
+2024-08-05 12:05:25 INFO  UserController:31 - Register accessed
+2024-08-05 12:05:36 INFO  UserController:31 - Register accessed
+2024-08-05 12:05:42 INFO  UserService:24 - user service accessed.
+2024-08-05 12:05:42 INFO  UserController:47 - Name:Email:Phone:Password:
+2024-08-05 12:05:42 WARN  PageNotFound:1300 - No mapping for GET /login
+2024-08-05 12:05:42 WARN  PageNotFound:461 - No endpoint GET /login.
+2024-08-05 12:07:31 INFO  UserController:31 - Register accessed
+2024-08-05 12:07:34 INFO  UserService:24 - user service accessed.
+2024-08-05 12:07:34 INFO  UserController:47 - Name:Email:Phone:Password:
+2024-08-05 12:07:34 WARN  PageNotFound:1300 - No mapping for GET /login
+2024-08-05 12:07:34 WARN  PageNotFound:461 - No endpoint GET /login.
+2024-08-05 12:07:41 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:07:43 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:08:05 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 12:08:06 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 12:08:07 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 234 ms. Found 1 JPA repository interface.
+2024-08-05 12:08:08 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 12:08:08 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 12:08:09 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 12:08:10 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 12:08:17 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 12:08:21 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:08:22 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 17043 ms
+2024-08-05 12:08:22 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 12:08:23 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 12:08:23 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-08-05 12:08:23 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 12:08:23 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 12:08:23 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 12:08:24 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 12:08:27 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:08:29 INFO  DispatcherServlet:554 - Completed initialization in 6153 ms
+2024-08-05 12:09:07 INFO  UserController:31 - Register accessed
+2024-08-05 12:09:19 INFO  UserService:24 - user service accessed.
+2024-08-05 12:09:19 INFO  UserController:47 - Name:Email:Phone:Password:
+2024-08-05 12:19:34 INFO  UserController:31 - Register accessed
+2024-08-05 12:19:44 INFO  UserService:24 - user service accessed.
+2024-08-05 12:19:44 INFO  UserController:47 - Name:AtharvaEmail:atharva@gmail.comPhone:9897345Password:1234
+2024-08-05 12:19:59 INFO  UserController:31 - Register accessed
+2024-08-05 12:20:01 INFO  UserService:24 - user service accessed.
+2024-08-05 12:20:01 INFO  UserController:47 - Name:Email:Phone:Password:
+2024-08-05 12:20:08 INFO  UserController:31 - Register accessed
+2024-08-05 12:24:18 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:24:20 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:24:50 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 12:24:51 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 12:24:51 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 244 ms. Found 1 JPA repository interface.
+2024-08-05 12:24:53 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 12:24:53 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 12:24:54 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 12:24:56 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 12:25:02 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 12:25:06 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:25:07 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 17198 ms
+2024-08-05 12:25:07 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 12:25:07 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 12:25:07 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2024-08-05 12:25:07 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 12:25:07 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 12:25:08 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 12:25:08 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 12:25:11 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 12:25:12 INFO  DispatcherServlet:554 - Completed initialization in 5560 ms
+2024-08-05 12:25:13 WARN  UserController:41 - validation error
+2024-08-05 12:26:42 WARN  UserController:41 - validation error
+2024-08-05 12:33:17 WARN  UserController:41 - validation error
+2024-08-05 12:33:20 INFO  UserController:31 - Register accessed
+2024-08-05 12:34:05 WARN  UserController:41 - validation error
+2024-08-05 12:57:52 INFO  UserController:31 - Register accessed
+2024-08-05 12:57:54 WARN  UserController:41 - validation error
+2024-08-05 12:59:54 INFO  UserController:31 - Register accessed
+2024-08-05 12:59:55 WARN  UserController:41 - validation error
+2024-08-05 13:00:32 INFO  UserController:31 - Register accessed
+2024-08-05 13:00:34 WARN  UserController:41 - validation error
+2024-08-05 13:01:12 INFO  UserController:31 - Register accessed
+2024-08-05 13:01:14 WARN  UserController:41 - validation error
+2024-08-05 13:01:22 INFO  UserController:31 - Register accessed
+2024-08-05 13:01:23 WARN  UserController:41 - validation error
+2024-08-05 13:01:33 INFO  UserController:31 - Register accessed
+2024-08-05 13:01:35 WARN  UserController:41 - validation error
+2024-08-05 13:03:02 INFO  UserController:31 - Register accessed
+2024-08-05 13:03:05 WARN  UserController:41 - validation error
+2024-08-05 13:03:09 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 13:03:10 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 13:03:26 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 13:03:28 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 13:03:28 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 210 ms. Found 1 JPA repository interface.
+2024-08-05 13:03:29 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 13:03:29 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 13:03:30 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 13:03:31 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 13:03:37 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 13:03:39 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 13:03:41 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 14158 ms
+2024-08-05 13:03:41 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 13:03:41 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 13:03:41 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-08-05 13:03:41 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 13:03:41 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 13:03:41 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 13:03:42 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 13:03:45 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 13:03:46 INFO  DispatcherServlet:554 - Completed initialization in 5553 ms
+2024-08-05 13:04:11 INFO  UserController:31 - Register accessed
+2024-08-05 13:04:14 WARN  UserController:41 - validation error
+2024-08-05 13:04:49 INFO  UserController:31 - Register accessed
+2024-08-05 13:04:51 WARN  UserController:41 - validation error
+2024-08-05 13:08:15 INFO  UserController:31 - Register accessed
+2024-08-05 13:08:17 WARN  UserController:41 - validation error
+2024-08-05 13:11:05 INFO  UserController:31 - Register accessed
+2024-08-05 13:11:07 WARN  UserController:41 - validation error
+2024-08-05 13:14:35 INFO  UserController:31 - Register accessed
+2024-08-05 13:14:39 WARN  UserController:41 - validation error
+2024-08-05 13:14:56 INFO  UserController:31 - Register accessed
+2024-08-05 13:14:58 WARN  UserController:41 - validation error
+2024-08-05 13:15:15 INFO  UserController:31 - Register accessed
+2024-08-05 13:15:16 WARN  UserController:41 - validation error
+2024-08-05 13:15:21 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 13:15:22 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 13:15:42 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 13:15:43 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 13:15:43 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 212 ms. Found 1 JPA repository interface.
+2024-08-05 13:15:44 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 13:15:45 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 13:15:45 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 13:15:47 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 13:15:54 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 13:15:57 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 13:15:58 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 16678 ms
+2024-08-05 13:15:58 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 13:15:59 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 13:15:59 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interface.
+2024-08-05 13:15:59 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 13:15:59 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 13:15:59 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 13:15:59 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 13:16:02 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 13:16:04 INFO  DispatcherServlet:554 - Completed initialization in 5706 ms
+2024-08-05 13:16:05 INFO  UserController:31 - Register accessed
+2024-08-05 13:16:15 INFO  UserController:31 - Register accessed
+2024-08-05 13:16:24 INFO  UserController:31 - Register accessed
+2024-08-05 13:16:30 WARN  UserController:41 - validation error
+2024-08-05 13:20:34 WARN  UserController:41 - validation error
+2024-08-05 13:21:32 INFO  UserController:31 - Register accessed
+2024-08-05 13:21:34 WARN  UserController:41 - validation error
+2024-08-05 13:22:30 INFO  UserController:31 - Register accessed
+2024-08-05 13:22:32 WARN  UserController:41 - validation error
+2024-08-05 13:22:39 INFO  UserController:31 - Register accessed
+2024-08-05 13:22:42 WARN  UserController:41 - validation error
+2024-08-05 13:22:59 INFO  UserController:31 - Register accessed
+2024-08-05 13:23:00 WARN  UserController:41 - validation error
+2024-08-05 13:24:50 WARN  UserController:41 - validation error
+2024-08-05 13:25:02 WARN  UserController:41 - validation error
+2024-08-05 13:26:30 INFO  UserController:31 - Register accessed
+2024-08-05 13:26:32 WARN  UserController:41 - validation error
+2024-08-05 13:26:58 INFO  UserController:31 - Register accessed
+2024-08-05 13:26:59 WARN  UserController:41 - validation error
+2024-08-05 13:27:26 INFO  UserController:31 - Register accessed
+2024-08-05 13:27:27 WARN  UserController:41 - validation error
+2024-08-05 14:54:36 INFO  UserController:31 - Register accessed
+2024-08-05 14:54:38 WARN  UserController:41 - validation error
+2024-08-05 14:55:38 INFO  UserController:31 - Register accessed
+2024-08-05 14:55:39 WARN  UserController:41 - validation error
+2024-08-05 14:56:30 INFO  UserController:31 - Register accessed
+2024-08-05 14:56:32 WARN  UserController:41 - validation error
+2024-08-05 15:00:16 INFO  UserController:31 - Register accessed
+2024-08-05 15:00:18 WARN  UserController:41 - validation error
+2024-08-05 15:00:42 INFO  UserController:31 - Register accessed
+2024-08-05 15:00:44 WARN  UserController:41 - validation error
+2024-08-05 15:01:42 WARN  UserController:41 - validation error
+2024-08-05 15:01:45 INFO  UserController:31 - Register accessed
+2024-08-05 15:01:47 INFO  UserController:31 - Register accessed
+2024-08-05 15:02:37 INFO  UserController:31 - Register accessed
+2024-08-05 15:02:41 WARN  UserController:41 - validation error
+2024-08-05 15:02:45 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:06 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:08 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:33 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:35 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:35 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:35 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:35 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:36 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:38 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:38 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:38 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:38 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:42 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:48 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:49 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:49 INFO  UserController:31 - Register accessed
+2024-08-05 15:03:52 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:03:54 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:04:18 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 15:04:19 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 15:04:20 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 518 ms. Found 1 JPA repository interface.
+2024-08-05 15:04:22 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 15:04:23 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 15:04:23 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 15:04:25 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 15:29:24 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 15:29:30 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:29:32 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 1514047 ms
+2024-08-05 15:29:32 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 15:29:32 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 15:29:32 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2024-08-05 15:29:33 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 15:29:33 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 15:29:33 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 15:29:33 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 15:32:05 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:32:07 INFO  DispatcherServlet:554 - Completed initialization in 154685 ms
+2024-08-05 15:34:42 INFO  UserController:31 - Register accessed
+2024-08-05 15:34:49 INFO  UserController:31 - Register accessed
+2024-08-05 15:34:50 INFO  UserController:31 - Register accessed
+2024-08-05 15:34:50 INFO  UserController:31 - Register accessed
+2024-08-05 15:34:51 INFO  UserController:31 - Register accessed
+2024-08-05 15:35:30 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:35:32 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:35:51 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 15:35:52 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 15:35:52 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 188 ms. Found 1 JPA repository interface.
+2024-08-05 15:35:54 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 15:35:54 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 15:35:54 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 15:35:56 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 15:36:03 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 15:36:06 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:36:08 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 16791 ms
+2024-08-05 15:36:08 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 15:36:08 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 15:36:08 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-08-05 15:36:09 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 15:36:09 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 15:36:09 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 15:36:09 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 15:36:12 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:36:14 INFO  DispatcherServlet:554 - Completed initialization in 6377 ms
+2024-08-05 15:36:15 INFO  UserController:31 - Register accessed
+2024-08-05 15:36:29 INFO  UserController:31 - Register accessed
+2024-08-05 15:36:30 INFO  UserController:31 - Register accessed
+2024-08-05 15:37:27 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:37:29 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:37:50 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 15:37:51 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 15:37:52 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 227 ms. Found 1 JPA repository interface.
+2024-08-05 15:37:53 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 15:37:54 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 15:37:54 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 15:37:56 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 15:38:03 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 15:38:06 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:38:08 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 17618 ms
+2024-08-05 15:38:08 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 15:38:08 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 15:38:08 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-08-05 15:38:09 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 15:38:09 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 15:38:09 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 15:38:09 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 15:38:13 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:38:14 INFO  DispatcherServlet:554 - Completed initialization in 6796 ms
+2024-08-05 15:38:23 INFO  UserController:31 - Register accessed
+2024-08-05 15:38:26 INFO  UserController:31 - Register accessed
+2024-08-05 15:38:27 INFO  UserController:31 - Register accessed
+2024-08-05 15:38:27 INFO  UserController:31 - Register accessed
+2024-08-05 15:40:18 INFO  UserController:31 - Register accessed
+2024-08-05 15:40:21 INFO  UserController:31 - Register accessed
+2024-08-05 15:40:27 INFO  UserController:31 - Register accessed
+2024-08-05 15:40:58 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:41:00 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:41:21 INFO  ContextLoader:255 - Root WebApplicationContext: initialization started
+2024-08-05 15:41:22 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 15:41:22 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 213 ms. Found 1 JPA repository interface.
+2024-08-05 15:41:23 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 15:41:24 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-05 15:41:24 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 15:41:26 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 15:41:32 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 15:41:35 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:41:36 INFO  ContextLoader:288 - Root WebApplicationContext initialized in 15173 ms
+2024-08-05 15:41:36 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcher'
+2024-08-05 15:41:37 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-05 15:41:37 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2024-08-05 15:41:37 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-05 15:41:37 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-08-05 15:41:37 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-05 15:41:37 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-05 15:41:41 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-05 15:41:42 INFO  DispatcherServlet:554 - Completed initialization in 5825 ms
+2024-08-05 15:41:57 INFO  UserController:31 - Register accessed
+2024-08-05 15:42:11 INFO  UserController:31 - Register accessed
+2024-08-05 15:46:26 INFO  UserController:31 - Register accessed
+2024-08-05 15:46:36 INFO  UserController:31 - Register accessed
+2024-08-05 15:48:29 INFO  UserController:31 - Register accessed
+2024-08-05 15:48:35 WARN  UserController:41 - validation error
+2024-08-05 15:50:28 INFO  UserController:31 - Register accessed
+2024-08-05 15:50:29 WARN  UserController:41 - validation error
+2024-08-05 15:51:04 INFO  UserController:31 - Register accessed
+2024-08-05 15:51:05 INFO  UserController:31 - Register accessed
+2024-08-05 15:51:06 INFO  UserController:31 - Register accessed
+2024-08-05 15:51:06 INFO  UserController:31 - Register accessed
+2024-08-05 15:51:10 INFO  UserController:31 - Register accessed
+2024-08-05 15:51:12 WARN  UserController:41 - validation error
+2024-08-05 15:51:26 WARN  UserController:41 - validation error
+2024-08-05 15:51:31 INFO  UserController:31 - Register accessed
+2024-08-05 15:51:32 WARN  UserController:41 - validation error
+2024-08-05 16:01:46 INFO  UserController:31 - Register accessed
+2024-08-05 16:01:48 WARN  UserController:41 - validation error
+2024-08-05 16:02:10 INFO  UserController:31 - Register accessed
+2024-08-05 16:02:51 WARN  UserController:41 - validation error
